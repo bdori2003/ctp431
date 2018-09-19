@@ -1,8 +1,0 @@
-#include <stdio.h>
-#add
-int main()
-{
-printf("helloworld");
-return 0;
-}
-#aaasss

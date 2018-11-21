@@ -36,8 +36,8 @@ function TR808Tone1(context, osc_frequency, osc_sweep, amp_gain, amp_decaytime) 
 	this.amp_gain = amp_gain;
 	this.amp_decaytime = amp_decaytime;
 
-	this.amp_attack_time = 0.1;
-//		this.decay = 0.6;		
+	this.amp_attack_time = 0.0;
+//		this.decay = 0.7;		
 };
 
 // create and connect
@@ -98,7 +98,7 @@ function TR808Tone2(context, highpass_freq, amp_gain, amp_decaytime) {
 
 	this.amp_decaytime = amp_decaytime;
 	this.amp_gain = amp_gain;
-	this.amp_attack_time = 0.2;
+	this.amp_attack_time = 0;
 //		this.decay = 0.7;		
 };
 
